@@ -1,18 +1,15 @@
-# Star-Squabble
+# Star Squabble - Game Design Document
+## Description
 A multiplayer turn-based 4X strategy game with units and combat inspired by Risk and with a star map and interstellar travel inspired by Ascendancy
 
-## Backstory
+
+
+# Backstory
 TBD
 
-
-
-
-# Repo Organization
-
-Project / Folder | Description & Status
------------------|---------------------
-Star Map Test | Test in Unity of creating and rendering random stars and starlinks. Also testing space skyboxes.
-Design and Notes | Design documents, notes, references
+# Gameplay
+## Core Mechanics
+TBD
 
 # Project
 ## Engine, Libraries, Services, Tools
