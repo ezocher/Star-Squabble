@@ -1,12 +1,12 @@
 # Star Squabble - Game Design Document - Draft 6/21
 
-## Description
+## Overview
 
 *"Risk" in Space*
 
 A multiplayer turn-based 4X strategy game with units and combat inspired by Risk and with a 3D star map and traversable interstellar wormholes inspired by Ascendancy's starlanes.
 
-Controlling territory is the primary objective like Risk, but there is also the traditional 4X "fog of war" where each player can only see the area that they've explored.
+Controlling territory is the primary objective like Risk, but there is also the traditional 4X "fog of war" where each player can only see the area that they've explored so far.
 
 ## Project Objectives
 
@@ -16,9 +16,9 @@ Develop a streamlined and visually simple game to focus on the gameplay, strateg
 
 In a faraway elliptical galaxy, a cluster of stars formed from a dense molecular cloud. Conditions were nearly perfect, and the cluster was eventually teeming with life. An incredible diversity of forms had evolved on more than two dozen planets, and in two cases, consciousness had been achieved.
 
-Sadly, before the /Bezzi and the Hommm had managed to contact one another, they both discovered that the massive blue star (120 solar masses) at the center of the cluster was becoming unstable and the Hommm had deduced that it was about to go supernova.
+Sadly, before the 'Bezzin and the Thommm had managed to contact one another, they both discovered that the massive blue star (120 solar masses) at the center of the cluster was becoming unstable and the Thommm had deduced that it was about to go supernova.
 
-When the explosion came … *TBD*
+When the explosion came … *TBD* gamma ray burst devestated the atmospheres and ecosystems of all the inhabited planets, nearly wiping out all life in the clkuster.
 
 On fifteen of the worlds, the hardiest microscopic life managed to survive in the crust and deep oceans of the planets.
 
@@ -109,7 +109,7 @@ In a successful invasion the smallest ship in the invading fleet provides the oc
 ## Core Architecture Principles
 
 * Separated and pluggable UI
-* Event-driven architecture
+* Event-based architecture
 * Pluggable AI - Open and pluggable AI per player to enable rapid experimentation
 * UI+AI gameplay: players decide which decisions to delegate to AI and choose AI(s) and AI settings
 
@@ -118,6 +118,10 @@ In a successful invasion the smallest ship in the invading fleet provides the oc
 ![Hand-drawn Architecture Diagram](Architecture-Diagram.png)
 
 ### Description
+
+Events are atomic actions/decisions that will change the game state.
+
+Processing events can generate new events.
 
 ### Objectives
 
