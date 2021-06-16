@@ -137,4 +137,4 @@ Processing events can generate new events.
 
 ## Team
 
-* Eric Zocher
+* Eric Zocher (@ezocher)
