@@ -29,7 +29,7 @@ Star Map Test | Test in Unity of creating and rendering random stars and wormhol
 
 ### Event-based architecture
 
-![Hand-drawn Architecture Diagram](Design\Architecture-Diagram.png)
+![Hand-drawn Architecture Diagram](Design/Architecture-Diagram.png)
 
 ## Technologies and Team
 
@@ -44,4 +44,4 @@ Star Map Test | Test in Unity of creating and rendering random stars and wormhol
 ## Game Design Document
 
 Gameplay, game mechanics, and further architecture details are covered in the 
-[Game Design Document](Design\Star Squabble GDD.md).
+[Game Design Document](Design/Star-Squabble-GDD.md).
