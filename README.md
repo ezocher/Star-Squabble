@@ -35,7 +35,7 @@ Star Map Test | Test in Unity of creating and rendering random stars and wormhol
 
 ### Engine, Libraries, Services, Tools
 
-* C# and Unity
+* C# 8.0 (.NET 4.6) and Unity 2020.3
 
 ### Team
 
